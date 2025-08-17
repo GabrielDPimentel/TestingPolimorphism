@@ -41,9 +41,9 @@ public class Main {
 
         for(Employee emp : employees){
             System.out.println(emp.getName() + "- $ " + String.format("%.2f", emp.payment()));
-
-
         }
+
+        sc.close();
     }
 
 
