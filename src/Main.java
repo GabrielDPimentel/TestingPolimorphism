@@ -12,7 +12,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the number of employees : ");
+        System.out.print("Enter the number of employees : ");
         int n = sc.nextInt();
         ArrayList<Employee> employees = new ArrayList<>();
 
@@ -21,6 +21,7 @@ public class Main {
             System.out.print("Outsourced ? (y/n):  " );
             char question = sc.next().charAt(0);
                 System.out.print("Name:" );
+                sc.nextLine();
                 String name = sc.nextLine();
                 System.out.print("Hours: ");
                 int hours = sc.nextInt();
